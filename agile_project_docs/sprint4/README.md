@@ -8,6 +8,11 @@ Here is a snapshot of our Scrum Board from Sprint 4:
 
 ![Sprint 4 Scrum Board](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_4_Scrum_Board.png)
 
+##Sprint 4 Demo Notes
+Here are our notes for our Sprint 4 Demo:
+
+![Sprint 4 Demo Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_4_Demo_Notes.png)
+
 ##Sprint 4 Retrospective
 Here are the notes from our Sprint 4 Retrospective:
 
