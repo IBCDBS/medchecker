@@ -2,7 +2,7 @@
 
 #####Attendees: JP Foley, Dan Maguire, Tim Spadafore, Blair Todd, Courtney Bristow (Product Owner), James Fintal (Delivery Manager) 
 
-<u>What information from the FDA would be beneficial to you with respect to prescription and non-prescription drugs?</u> 
+<i>What information from the FDA would be beneficial to you with respect to prescription and non-prescription drugs?</i> 
 
 <b>Blair</b> - Interactions with other drugs, side-effects, dosing information, warnings (i.e. what to take and not to take with them) 
 
@@ -12,7 +12,7 @@
 
 <b>JP</b> - With four girls, my concern is one of my girls, particularly Hanna, accidentally taking someone else’s prescription.  I want to know what happens if that occurs, what should I look out for, what is the risk, what are my options 
 
-<u>JP brings up an interesting point, as parents what are your fears for your children? </u>
+<i>JP brings up an interesting point, as parents what are your fears for your children? </i>
 
 <b>Tim</b> - with a toddler, I think my biggest fear is Henley ingesting something on-purpose, which is really accidental, and having an adverse reaction to it - what do I do 
 
@@ -20,13 +20,13 @@
 
 <b>Blair</b> - That Piper will get sick, taking too much, what are adverse effects,  
 
-<u>As a group, is there anything else that worries you with respect to drugs?</u>
+<i>As a group, is there anything else that worries you with respect to drugs?</i>
 
 <b>Blair</b> - I want to know alternatives, is there a better drug than being prescribed, research behind effectiveness of the drug 
 
 <b>Dan</b> - Is there anything else out there I need to know. Those sheets you get from the doctor are fine, but those are after the fact…I wish I was better prepared going into my kid’s appointment 
 
-<u>But you could just surf the web for that?</u>
+<i>But you could just surf the web for that?</i>
 
 <b>Dan</b> - Sure, but if I goto WebMD, then they only post the worse possible scenario - as an example, my child is experiencing diziness and is vomiting - the response is to immediately rush to hospital, when maybe 
 
@@ -36,7 +36,7 @@
 
 <b>JP</b> - That is true, a pharmaceutical company would focus only on their drugs, would be hard to compare, and they would not want to explain generics 
 
-<u>Is there anything else? </u>
+<i>Is there anything else? </i>
 
 <b>Tim</b> - I think I would want to know seriousness of each symptom - how bad is one vs. the other, is one symptom worse? 
 
