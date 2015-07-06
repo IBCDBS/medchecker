@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+    <div class="panel-body">
+        <p class="text-center">The Risk Score is an indicator of the portion of adverse event
+            reports for which the queried drug is suspected of contributing to hospitalization or death.</p>
+        <img class="img-responsive center-block" ng-if="showProcessing"
+             src="assets/images/loading.gif">
+        <p ng-if="!showProcessing && riskScore !== undefined" class="lead text-center">
+            <strong class="center-block text-success"
+                    ng-class="{'text-warning': riskScore >= 4 && riskScore < 7, 'text-danger': riskScore >= 7}">
+                Risk Score = {{riskScore}}/10
+            </strong>
+        </p>
+    </div>
+</div>

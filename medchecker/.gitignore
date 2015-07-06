@@ -1,0 +1,13 @@
+*.sw*
+*~
+*.iml
+src/main/webapp/app/build/
+src/main/webapp/app/node_modules/
+src/main/webapp/app/test-results.xml
+.idea/
+target/
+target-grunt/
+
+.settings/
+.classpath
+.project

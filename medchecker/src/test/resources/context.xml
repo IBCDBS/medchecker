@@ -1,0 +1,15 @@
+<Context>
+
+    <Resource name="mail/session"
+          auth="Container"
+          type="javax.mail.Session"
+          mail.debug="true"
+          mail.user="${mail.username}"
+          password="${mail.password}"
+          mail.transport.protocol="smtp"
+          mail.smtp.host="${mail.host}"
+          mail.smtp.auth="true"
+          mail.smtp.port="587"
+          mail.smtp.starttls.enable="true"/>
+
+</Context>

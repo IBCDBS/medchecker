@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="medchecker" ng-controller="AppCtrl">
+<head>
+    <title ng-bind="pageTitle"></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>"/>
+    <% }); %>
+
+    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script>
+    <% }); %>
+</head>
+<body>
+<div class="container">
+    <img src="assets/images/MedChecker_logo.png">
+
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" ng-init="menuCollapsed = true"
+                    ng-click="menuCollapsed = ! menuCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" collapse="menuCollapsed">
+            <ul class="nav navbar-nav">
+                <li ui-sref-active="active">
+                    <a href ui-sref="home">
+                        <i class="fa fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li ui-sref-active="active">
+                    <a href ui-sref="feedback">
+                        <i class="fa fa-comment"></i>
+                        Feedback
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/IBCDBS/medchecker">
+                        <i class="fa fa-github-alt"></i>
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container" ui-view="main"></div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="text-muted">
+                <small>This data is sourced from the FDA Adverse Event Reporting System (FAERS). The information in
+                    these
+                    reports has not
+                    been scientifically or otherwise verified as to a cause and effect relationship and cannot be used
+                    to
+                    estimate the
+                    incidence of these events.
+
+                    <br/><br/>
+                    To submit an adverse drug reaction to the FDA, visit this site:
+                    <a href="https://www.accessdata.fda.gov/scripts/medwatch/index.cfm?action=reporting.home"
+                       target="_blank">
+                        https://www.accessdata.fda.gov/scripts/medwatch/
+                    </a>
+                </small>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

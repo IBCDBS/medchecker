@@ -1,0 +1,182 @@
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-inline">
+            <!-- normal search interface -->
+            <div class="well hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" ng-model="drugName"
+                                   placeholder="Search for Drug" class="form-control input-md" required="">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" ng-click="onSearchClick()">Go</button>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" popover-placement="top"
+                                    popover="To add a second drug, click the Add button and enter the drug in the search box."
+                                    popover-trigger="mouseenter" popover-popup-delay="1000"
+                                    class="btn btn-primary" ng-click="onAddDrugClick()">Add
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <span>
+                            Enter the medication you wish to search for and select 'Go'.
+                            To search for a combination of medications (i.e. Crestor, Tylenol),
+                            select the 'Add' button to add an additional medication to your list.
+                            If you would like to filter your results by location, gender, and/or timeframe,
+                            select the appropriate filter boxes and select 'Apply'.
+                        </span>
+                    </div>
+                </div>
+                <div ng-repeat="item in additionalDrugNames track by $index">
+                    <input type="text" ng-model="additionalDrugNames[$index]"
+                           class="form-control input-md" required=""/>
+                    <a id="removeDrugLink" href="#" ng-click="onRemoveDrugClick($index)">Remove</a>
+                </div>
+            </div>
+            <!-- mobile search interface -->
+            <div class="hidden-md hidden-lg hidden-xl ibc-bottom-buffer">
+                <div class="input-group">
+                    <input type="text" class="form-control" ng-model="drugName"
+                           placeholder="Please enter drug name">
+                    <span class="input-group-btn">
+                        <button ng-enabled="drugName.length" ng-click="onAddDrugClick()"
+                                class="btn btn-default" type="button">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </span>
+                </div>
+                <div class="input-group" ng-repeat="item in additionalDrugNames track by $index">
+                    <input type="text" class="form-control" ng-model="additionalDrugNames[$index]"
+                           placeholder="Please enter drug name">
+                    <span class="input-group-btn">
+                        <button type="button" ng-click="onRemoveDrugClick($index)" class="btn btn-default">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Filter Results:</div>
+            <div class="panel-body">
+                <p>By Location</p>
+
+                <div class="btn-group">
+                    <label class="btn btn-default" ng-model="location" btn-radio="{{worldwide}}"
+                           uncheckable>Worldwide</label>
+                    <label class="btn btn-default" ng-model="location" btn-radio="{{unitedStates}}"
+                           ng-class="{active:'{{location.value}}'==='{{unitedStates.value}}'}" uncheckable>United
+                        States</label>
+                </div>
+                <br/><br/>
+
+                <p>By Gender</p>
+
+                <div class="btn-group">
+                    <label class="btn btn-default" ng-model="gender"
+                           btn-radio="{{all}}"
+                           ng-class="{active:'{{gender.value}}'==='{{all.value}}'}"
+                           uncheckable>All</label>
+                    <label class="btn btn-default" ng-model="gender"
+                           btn-radio="{{male}}" uncheckable>Male</label>
+                    <label class="btn btn-default" ng-model="gender"
+                           btn-radio="{{female}}" uncheckable>Female</label>
+                </div>
+                <br/><br/>
+
+                <p>By Timeframe</p>
+
+                <div class="btn-group">
+                    <label class="btn btn-default" ng-model="period"
+                           btn-radio="{{oneYearAgo}}"
+                           uncheckable>1 Year</label>
+                    <label class="btn btn-default" ng-model="period"
+                           btn-radio="{{fiveYearsAgo}}"
+                           uncheckable>5 Years</label>
+                    <label class="btn btn-default" ng-model="period"
+                           btn-radio="{{tenYearsAgo}}"
+                           ng-class="{active:'{{period.value}}'==='{{tenYearsAgo.value}}'}"
+                           uncheckable>10 Years</label>
+                </div>
+
+                <br/><br/>
+
+                <!-- Apply button -->
+                <div class="text-center">
+                    <button type="button" id="applyFiltersButton" class="btn btn-primary btn-block"
+                            ng-click="onSearchClick()">Apply
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <risk-report risk-score="riskScore" show-processing="showProcessing"></risk-report>
+        <tabset>
+            <tab heading="Chart view" ng-click="onTabChange()">
+                <br/>
+
+                <div class="panel panel-default">
+                    <div ng-if="events.length" class="panel-heading">
+                        Top 10 Adverse Reactions for {{drugsString}}: {{locationString}}, {{periodString}},
+                        {{genderString}}
+                    </div>
+                    <div ng-if="!events.length" class="panel-body">
+                        <div class="jumbotron">
+                            <h1 class="fa fa-search"></h1>
+
+                            <h3>Use the search box to view results.</h3>
+                        </div>
+                    </div>
+                    <br/>
+                    <d3-bars ng-if="events.length" data="chartData"></d3-bars>
+                </div>
+            </tab>
+            <tab heading="List view" ng-click="onTabChange()">
+                <br/>
+
+                <div class="panel panel-default">
+                    <div ng-if="!events.length" class="panel-body">
+                        <div class="jumbotron">
+                            <h1 class="fa fa-search"></h1>
+
+                            <h3>Use the search box to view results.</h3>
+                        </div>
+                    </div>
+                    <div ng-if="events.length" class="panel-heading">
+                        Top {{events.length}} Adverse Reactions for {{drugsString}}: {{locationString}},
+                        {{periodString}}, {{genderString}}
+                    </div>
+                    <table ng-if="events.length" st-table="allEvents" st-safe-src="events" class="table table-striped">
+                        <thead>
+                        <th st-sort="term" width="60%">Adverse Reactions</th>
+                        <th st-sort="count" width="20%">Number of Reactions</th>
+                        <th st-sort="percentage" width="20%">% of Total Reactions</th>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="event in allEvents">
+                            <td>{{ event.term }}</td>
+                            <td>{{ event.count }}</td>
+                            <td>{{ event.percentage | number: 2 }}%</td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-center">
+                                <div st-pagination="" st-items-by-page="10" st-displayed-pages="10"></div>
+                            </td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </tab>
+        </tabset>
+    </div>
+</div>
