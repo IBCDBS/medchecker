@@ -49,13 +49,132 @@
 |	patient.patientdeath	|	list	|	"If the patient died, this section contains information about the death"	|		|
 |	patient.patientdeath.patientdeathdate	|	string	|	Date that the patient died	|	20030401	|
 |	patient.patientdeath.patientdeathdateformat	|	string	|	Identifies the encoding format of the tientpatientdeathpatientdeathdate field Always set to 102 (YYYYMMDD)	|	102	|
-								
 
 ##Drugs
 #####Information on the drugs taken while the event was experienced
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
 |:---------:|:------------:|:----------|:----------|
-||||
+|	patient.drug	|	list of objects	|	Drugs known to be taken by the patient at the time of the adverse event.	|	
+|	patient.drug.actiondrug	|	string	|	"Actions taken with the drug: <ul> 1 = Drug withdrawn 2 = Dose reduced 3 = Dose increased 4 = Dose not changed 5 = Unknown 6 = Not applicable</ul>"	|	1
+|	patient.drug.drugadditional	|	string	|	Additional details about the circumstances surrounding the patientís use of the drug.	|	1
+|	patient.drug.drugcumulativedosagenumb	|	string	|	The cumulative dose taken until the first reaction was experienced.	|	4100
+|	patient.drug.drugcumulativedosageunit	|	string	|	"The unit for drugcumulativedosagenumb: <ul>001 = kg kilogram(s) 002 = G gram(s) 003 = Mg milligram(s) 004 = _g microgram(s)</ul>"	|	003
+|	patient.drug.drugdosageform	|	string	|	The drugís dosage form.	|	Tablet
+|	patient.drug.drugintervaldosagedefinition	|	string	|	"The unit for the interval in patient.drug.drugintervaldosageunitnumb: <ul>
+801 = Year
+802 = Month
+803 = Week
+804 = Day
+805 = Hour
+806 = Minute
+807 = Trimester
+810 = Cyclical
+811 = Trimester 812 = As Necessary 813 = Total</ul>"	|	804
+|	patient.drug.drugintervaldosageunitnumb	|	string	|	Number of units in patient.drug.drugintervaldosagedefinition	|	1
+|	patient.drug.drugrecurreadministration	|	string	|	"Whether the reaction occured on a readministration of the drug:
+1 = Yes
+2 = No
+3 = Unknown"	|	3
+|	patient.drug.drugseparatedosagenumb	|	string	|	The number of separate dosages.	|	1
+|	patient.drug.drugstructuredosagenumb	|	string	|	The number of doses.	|	600
+|	patient.drug.drugstructuredosageunit	|	string	|	"The unit for drugstructuredosagenumb:
+001 = kg kilogram(s)
+002 = G gram(s)
+003 = Mg milligram(s)
+004 = _g microgram(s)
+"	|	003
+|	patient.drug.drugadministrationroute	|	string	|	"The drugís route of administration:
+001 = Auricular (otic)
+002 = Buccal
+003 = Cutaneous
+004 = Dental
+005 = Endocervical
+006 = Endosinusial
+007 = Endotracheal
+008 = Epidural
+009 = Extra-amniotic
+010 = Hemodialysis
+011 = Intra corpus cavernosum
+012 = Intra-amniotic
+013 = Intra-arterial
+014 = Intra-articular
+015 = Intra-uterine
+016 = Intracardiac
+017 = Intracavernous
+018 = Intracerebral
+019 = Intracervical
+020 = Intracisternal
+021 = Intracorneal
+022 = Intracoronary
+023 = Intradermal
+024 = Intradiscal (intraspinal)
+025 = Intrahepatic
+026 = Intralesional
+027 = Intralymphatic
+028 = Intramedullar (bone marrow)
+029 = Intrameningeal
+030 = Intramuscular
+031 = Intraocular
+032 = Intrapericardial
+033 = Intraperitoneal
+034 = Intrapleural
+035 = Intrasynovial
+036 = Intratumor
+037 = Intrathecal
+038 = Intrathoracic
+039 = Intratracheal
+040 = Intravenous bolus
+041 = Intravenous drip
+042 = Intravenous (not otherwise specified)
+043 = Intravesical
+044 = Iontophoresis
+045 = Nasal
+046 = Occlusive dressing technique
+047 = Ophthalmic
+048 = Oral
+049 = Oropharingeal
+050 = Other
+051 = Parenteral
+052 = Periarticular
+053 = Perineural
+054 = Rectal
+055 = Respiratory (inhalation)
+056 = Retrobulbar
+057 = Sunconjunctival
+058 = Subcutaneous
+059 = Subdermal
+060 = Sublingual
+061 = Topical
+062 = Transdermal
+063 = Transmammary
+064 = Transplacental
+065 = Unknown
+066 = Urethral
+067 = Vaginal
+"	|	048
+|	patient.drug.drugauthorizationnumb	|		|	Drug authorization or application number.	|	021223
+|	patient.drug.drugbatchnumb	|		|	Drug product lot number.	|	020113A
+|	patient.drug.drugcharacterization	|		|	"Reported role of the drug in the adverse event:
+1 = Suspect drug
+2 = Concomitant drug
+3 = Interacting drug
+"	|	1
+|	patient.drug.drugdosagetext	|		|	Additional detail about the dosage taken.	|	"3.5 MG/KG, 1 IN 1 AS NECESSARY, INTRAVENOUS DRIP"
+|	patient.drug.drugenddate	|		|	Date the patient ended taking the drug.	|	20020920
+|	patient.drug.drugenddateformat	|		|	Identifies the encoding format of the patient.drug.drugenddateformat field. Always set to 102 (YYYYMMDD).	|	102
+|	patient.drug.drugindication	|		|	Indication for use in the case.	|	RHEUMATOID ARTHRITIS
+|	patient.drug.drugstartdate	|		|	Date the patient began taking the drug.	|	20020903
+|	patient.drug.drugstartdateformat	|		|	Identifies the encoding format of the patient.drug.drugstartdate field. Always set to 102 (YYYYMMDD).	|	102
+|	patient.drug.drugtreatmentduration	|		|	The length of time the patient was using the drug.	|	1
+|	patient.drug.drugtreatmentdurationunit	|		|	"The unit for patient.drug.drugtreatmentduration:
+801 = Year
+802 = Month
+803 = Week
+804 = Day
+805 = Hour
+806 = Minute
+"	|	804
+|	patient.drug.medicinalproduct	|		|	Valid Trade name of the product	|	ASCORBIC ACID
 
 
 ##Reactions
