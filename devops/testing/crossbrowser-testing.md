@@ -16,6 +16,6 @@ Additionally, testing was conducted on mobile devices and tablets to ensure full
 
 | Device    |  Screenshot | 
 |:---------:|:------------:|
-| Mobile |     ![Mobile Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/MedChecker_Mobile.jpg)     |
+| Mobile |     ![Mobile Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/MedChecker_Mobile_small.jpg)     |
 | Tablet |     ![Tablet Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/MedChecker_Tablet.jpg)        |
 | Web |     ![Web Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/MedChecker_Web.jpg)        |
