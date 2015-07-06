@@ -30,6 +30,11 @@ Here is a high level summary of the Business Goals and Features that the Project
 ![MedChecker Business Goals and Features]
 (https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Business_Goals_Features_Summary.png)
 
+##MedChecker Prototype Mock Ups
+Prototype Mock Ups were developed in Microsoft Excel, based off of the initial discussions held regarding the functionality of the MedChecker application. These Mock Ups served as the basis for development. Screenshots of the Prototype Mock Ups can be accessed at the below link:
+
+https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MOCKUPS.md
+
 ##MedChecker Style Guide
 The MedChecker Style Guide, which was created and utilized specifically for the MedChecker application, can be accessed at the below link:
 
