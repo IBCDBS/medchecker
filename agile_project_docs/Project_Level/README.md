@@ -1,0 +1,36 @@
+#Project Level Documentation
+The following documentation was stored in Confluence for the Project Team to refer to through the four Sprints that made up the MedChecker Project.
+
+##Team Roles and Contact List
+A list of team members, their roles, and their contact information, was housed in Confluence for the Project Team to access.
+
+![Team Roles and Contact List]
+(https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Team_Roles_Contact_List.png)
+
+##Agile Team Working Agreement
+All Project Team members were asked to abide by the Agile Team Working Agreement.
+
+![Agile Team Working Agreement]
+(https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Team_Working_Agreement.png)
+
+##Initial Scope Discussion
+Here are the meeting minutes from the initial scope discussions around MedChecker:
+
+![MedChecker Initial Scope Discussions]
+(https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Initial_Scope_Discussions_Meeting_Minutes.png)
+
+##Business Case
+The MedChecker Business Case, which was used in determining the need and intended user group of the MedChecker Application, can be accessed at the below link:
+
+https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/BUSINESSCASE.md
+
+##Business Goals and Features
+Here is a high level summary of the Business Goals and Features that the Project Team aimed to satisfy with the development of MedChecker:
+
+![MedChecker Business Goals and Features]
+(https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Business_Goals_Features_Summary.png)
+
+##MedChecker Style Guide
+The MedChecker Style Guide, which was created and utilized specifically for the MedChecker application, can be accessed at the below link:
+
+https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MedChecker_Style_Guide.jpg
