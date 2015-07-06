@@ -1,9 +1,9 @@
-#DevOps Overview
+#Infrastructure Overview
 
-![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
+![Infrastructure Overview](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_network_topology.png)
 
 ##Infrastrucure
-IBC regularly uses cloud services from a variety of vendors. Specifically for this prototype, MedChecker, we built on an Ubuntu virutal machine within Microsoft Azure. Microsoft Azure allows us to quickly build and replicate environments, while providing flexible redundancy and scalability options. 
+IBC regularly uses cloud services from a variety of vendors. Specifically for this prototype, MedChecker, we built on an Ubuntu virutal machine within Microsoft Azure. Microsoft Azure allows us to quickly build and replicate environments, while providing flexible redundancy and scalability options.
 
 ##Source Control
 
@@ -16,13 +16,24 @@ Configuration management for MedChecker includes several components:
 ####Azure Portal
 
 - Initial virtual networks/cloud services/machines were created via the Azure portal. Once in use, snapshots and backups were scheduled and administered on a regular basis.
-  - [Azure Recovery Services](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_backup.png)
-  - [Azure Images](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_snapshots.png)
 
 ####Ansible
 
 - IBC used ansible for the configration of its virtual machines, including downloading/installing required packages, in preparation for MedChecker to be deployed.
-  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_ansibletower.png)
+  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_ansibletower.png)
+
+##Performance Monitoring
+IBC monitors their Microsoft Azure assets with New Relic. New Relic offers several products, but the one we use for server monitoring is New Relice Servers. This product easily integrates with our Azure portal, installs on each virtual machine in seconds, and provides almost instant status on our server's health, and potential issues. Alerts are configured to notify our DevOps team at various thresholds, to ensure our servers applications perform optimally.
+  - [NewRelic Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/performance/performance_monitoring_newrelic.jpg)
+
+##Security Monitoring
+IBC uses CloudFlare for many of its websites and web applications.  CloudFlare provides many benefits, including its ability to actively monitor and protect a website from a wide variet of threats and security risks.
+  - [CloudFlare Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/security/medchecker_cloudflare.jpg)
+
+#DevOps Overview
+
+![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_devops_overview.png)
+
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
@@ -35,10 +46,3 @@ Configuration management for MedChecker includes several components:
 
 IBC leverages the Atlassian suite for most of its DevOps. Included in the suite Bamboo, which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
 
-##Performance Monitoring
-IBC monitors their Microsoft Azure assets with New Relic. New Relic offers several products, but the one we use for server monitoring is New Relice Servers. This product easily integrates with our Azure portal, installs on each virtual machine in seconds, and provides almost instant status on our server's health, and potential issues. Alerts are configured to notify our DevOps team at various thresholds, to ensure our servers applications perform optimally.
-  - [NewRelic Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/performance/performance_monitoring_newrelic.jpg)
-
-##Security Monitoring
-IBC uses CloudFlare for many of its websites and web applications.  CloudFlare provides many benefits, including its ability to actively monitor and protect a website from a wide variet of threats and security risks.
-  - [CloudFlare Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/security/medchecker_cloudflare.jpg)
