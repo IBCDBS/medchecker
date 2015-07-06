@@ -43,4 +43,4 @@ Prototype Mock Ups were developed in Microsoft Excel, based off of the initial d
 ##MedChecker Style Guide
 The MedChecker Style Guide, which was created and utilized specifically for the MedChecker application, can be accessed at the below link:
 
-[MedChecker Style Guide] https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MedChecker_Style_Guide.jpg
+[MedChecker Style Guide](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MedChecker_Style_Guide.jpg)
