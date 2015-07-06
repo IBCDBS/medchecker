@@ -5,10 +5,6 @@
 ##Infrastrucure
 IBC regularly uses cloud services from a variety of vendors. Specifically for this prototype, MedChecker, we built on an Ubuntu virutal machine within Microsoft Azure. Microsoft Azure allows us to quickly build and replicate environments, while providing flexible redundancy and scalability options.
 
-##Source Control
-
-IBC uses an internal Git server to manage and maintain its source code.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
-
 ##Configuration Management and Automated Deployment
 
 Configuration management for MedChecker includes several components:
@@ -34,6 +30,9 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 
 ![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
 
+##Source Control
+
+IBC uses an internal Git server to manage and maintain its source code.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
@@ -45,4 +44,3 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 ##Continous Integration
 
 IBC leverages the Atlassian suite for most of its DevOps. Included in the suite Bamboo, which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
-
