@@ -29,7 +29,7 @@ The MedChecker Business Case, which was used in determining the need and intende
 ##Business Goals and Features
 Here is a high level summary of the Business Goals and Features that the Project Team aimed to satisfy with the development of MedChecker:
 
-[MedChecker Business Goals and Features](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/Business_Goals_Features_Summary.png)
+![MedChecker Business Goals and Features](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/Business_Goals_Features_Summary.png)
 
 ##MedChecker Prototype Mock Ups
 Prototype Mock Ups were developed in Microsoft Excel, based off of the initial discussions held regarding the functionality of the MedChecker application. These Mock Ups served as the basis for development. Screenshots of the Prototype Mock Ups can be accessed at the below link:
