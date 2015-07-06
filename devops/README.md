@@ -17,6 +17,9 @@ Configuration management for MedChecker includes several components:
 
 - IBC used ansible for the configration of its virtual machines, including downloading/installing required packages, in preparation for MedChecker to be deployed.
   - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_ansibletower.png)
+  
+####Bamboo, Grunt, Bower, NPM, and Maven
+- As part of IBC DevOps process, there are several configurations that occurr with each automated build.  Our Bamboo server is used to orchestrate our build process, that runs with the assistance of Grunt, Bower, NPM, and Maven.
 
 ##Performance Monitoring
 IBC monitors their Microsoft Azure assets with New Relic. New Relic offers several products, but the one we use for server monitoring is New Relice Servers. This product easily integrates with our Azure portal, installs on each virtual machine in seconds, and provides almost instant status on our server's health, and potential issues. Alerts are configured to notify our DevOps team at various thresholds, to ensure our servers applications perform optimally.
@@ -30,9 +33,21 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 
 ![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
 
+IBC leverages the Atlassian suite for most of its DevOps.  Tools used for this effort inlude:
+- Jira (User story management and issue tracking)
+- Conflucence (Team collaboration and system documentation)
+- Git (Source control)
+- Bamboo (Continuous integration and build/deployment services)
+- Crucible (Peer code review)
+
+
 ##Source Control
 
 IBC uses an internal Git server to manage and maintain its source code.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
+
+##Continous Integration
+
+Included in the suite Bamboo, which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
@@ -41,6 +56,3 @@ IBC uses an internal Git server to manage and maintain its source code.  Additio
   - [Build Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/medchecker_build_summary.jpg)
   - [Build Log](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/MedChecker%20Bamboo%20Build%20Log_CI.png)
 
-##Continous Integration
-
-IBC leverages the Atlassian suite for most of its DevOps. Included in the suite Bamboo, which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
