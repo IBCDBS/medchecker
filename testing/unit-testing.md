@@ -12,7 +12,7 @@ MedChecker has unit tests automatically executed with each build. The JUnit fram
 
 #####Here are the tests results from our latest build:
 
-![Bamboo Unit Tests Results](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/MedChecker_TestsResults_build126.jpg)
+![Bamboo Unit Tests Results](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/MedChecker_TestsResults_build141.jpg)
 
 
 
