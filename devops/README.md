@@ -36,19 +36,19 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 IBC leverages the Atlassian suite for most of its DevOps.  Tools used for this effort inlude:
 - Jira (User story management and issue tracking)
 - Conflucence (Team collaboration and system documentation)
-- Git (Source control)
+- Fisheye (Source control)
 - Bamboo (Continuous integration and build/deployment services)
 - Crucible (Peer code review)
 
 
 ##Source Control
 
-IBC uses Atlassian Fisheye to manage and maintian its sourcecode within it's internal Git server.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
+IBC uses Atlassian Fisheye to provide visibility into project sourcecode revision history within it's internal Git server.
 - [Fisheye Repository](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/fisheye_source_control.png)
 
 ##Continous Integration
 
-Included in the suite Bamboo, which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
+Bamboo is atlassian's build server which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
