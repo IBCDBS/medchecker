@@ -1,4 +1,4 @@
-Prototype link - http://medchecker.ibcdbs.solutions/index.html#/home
+Prototype link - http://medchecker.info
 
 To deliver our project, we identified IBC personnel with children to comprise our “User Community.”  Our prototype delivery team is led by our Product Manager, Courtney Bristow, an experienced agile delivery leader. Courtney was responsible for making any scope-related decisions about the end product, including technical trade-offs, what additional scope was needed to produce a minimum viable product (MVP), and what was acceptable to remove or delay given resource and time constraints. She attended every stand-up and planning session, and had a Product Owner Approval Sign-off task on each story that the team delivered. (a evidence:)
 
