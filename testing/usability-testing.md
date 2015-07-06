@@ -20,5 +20,5 @@ The bug was assigned to the developer in charge of the original User Story, and 
 
 An additional way that the team performed Usability Tests was through the Sprint Demonstration. The agile team provided a demo of the MVP to external users as well as the product owner. Feedback was documented in Confluence, and as the Prototype was developed utilizing an iterative approach, new User Stories were created as an output of the demo and usability testing. Based on the feedback received, these new User Stories made up the bulk of Sprint 3, allowing the project team to deliver a product that better met the end-users’ needs and expectations. An additional Sprint Demo was held at the conclusion of Sprint 4. Feedback from that demonstration was added to the Project Backlog.
 
-![Sprint Demo Feedback Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint4DemoResults.jpg)
+![Sprint Demo Feedback Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_4_Demo_Notes.jpg)
 <center><i>Figure 4 - Sprint Demo Feedback Notes</i></center>
