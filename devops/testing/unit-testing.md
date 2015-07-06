@@ -6,8 +6,8 @@ MedChecker has unit tests automatically executed with each build. The JUnit fram
 
 | Code      |  # of Tests  | % Coverage |
 |:---------:|:------------:|:----------:|
-| Java      |      4       |     95     |
-| Javascript|     28       |     70     |
+| Java      |      9       |     95     |
+| Javascript|     43       |     70     |
 
 
 #####Here are the tests results from our latest build:
