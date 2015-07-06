@@ -43,7 +43,8 @@ IBC leverages the Atlassian suite for most of its DevOps.  Tools used for this e
 
 ##Source Control
 
-IBC uses an internal Git server to manage and maintain its source code.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
+IBC uses Atlassian Fisheye to manage and maintian its sourcecode within it's internal Git server.  Additional functionality is available to our developers through the addition of Atlassian's Fisheye (repositiory search and reporting) and Crucible (peer review).
+- [Fisheye Repository](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/fisheye_source_control.png)
 
 ##Continous Integration
 
