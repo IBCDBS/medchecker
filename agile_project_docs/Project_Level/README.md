@@ -22,23 +22,23 @@ Here are the meeting minutes from the initial scope discussions around MedChecke
 ##Internal Focus Group Session
 The MedChecker Product Owner and Delivery Manager held an internal focus group with IBC employees to get a better understanding of what a user of MedChecker would want to see in the final product. Notes from this session can be accessed at the below link:
 
-[Internal Focus Group Notes] https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/FocusGroupNotes.md
+[Internal Focus Group Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/FocusGroupNotes.md)
 
 ##Business Case
 The MedChecker Business Case, which was used in determining the need and intended user group of the MedChecker Application, can be accessed at the below link:
 
-[MedChecker Business Case] https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/BUSINESSCASE.md
+[MedChecker Business Case](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/BUSINESSCASE.md)
 
 ##Business Goals and Features
 Here is a high level summary of the Business Goals and Features that the Project Team aimed to satisfy with the development of MedChecker:
 
-![MedChecker Business Goals and Features]
+[MedChecker Business Goals and Features]
 (https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Business_Goals_Features_Summary.png)
 
 ##MedChecker Prototype Mock Ups
 Prototype Mock Ups were developed in Microsoft Excel, based off of the initial discussions held regarding the functionality of the MedChecker application. These Mock Ups served as the basis for development. Screenshots of the Prototype Mock Ups can be accessed at the below link:
 
-[MedChecker Prototype Mock Ups] https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MOCKUPS.md
+[MedChecker Prototype Mock Ups](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/MOCKUPS.md)
 
 ##MedChecker Style Guide
 The MedChecker Style Guide, which was created and utilized specifically for the MedChecker application, can be accessed at the below link:
