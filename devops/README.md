@@ -1,6 +1,6 @@
 #Infrastructure Overview
 
-![Infrastructure Overview](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_network_topology.png)
+![Infrastructure Overview](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_network_topology.png)
 
 ##Infrastrucure
 IBC regularly uses cloud services from a variety of vendors. Specifically for this prototype, MedChecker, we built on an Ubuntu virutal machine within Microsoft Azure. Microsoft Azure allows us to quickly build and replicate environments, while providing flexible redundancy and scalability options.
@@ -32,7 +32,7 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 
 #DevOps Overview
 
-![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_devops_overview.png)
+![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
 
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
