@@ -3,16 +3,16 @@ Based off of the initial discussions around MedChecker's intended functionality,
 
 ###Table View
 
-![MedChecker Table View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/mockup_table.jpg)
+![MedChecker Table View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/project_level/assets/mockup_table.jpg)
 
 ###Bar Graph View
 
-![MedChecker Bar Graph View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/mockup_bargraph.jpg)
+![MedChecker Bar Graph View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/project_level/assets/mockup_bargraph.jpg)
 
 ###Pie Chart View
 
-![MedChecker Pie Chart View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/mockup_piechart.jpg)
+![MedChecker Pie Chart View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/project_level/assets/mockup_piechart.jpg)
 
 ###Adverse Reactions LIst
 
-![MedChecker Bar Graph View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/assets/mockup_reactionslist.jpg)
+![MedChecker Bar Graph View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/project_level/assets/mockup_reactionslist.jpg)
