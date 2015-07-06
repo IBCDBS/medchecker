@@ -54,6 +54,6 @@ Included in the suite Bamboo, which provides provides continuous integration, al
 
 - Bamboo is providing continuous integration for our project. Once it recognizes new code has been committed, it runs a series of tests, and if successful, will continue on to the build plan. The build plans leverages Grunt, Bower, and NPM for JavaScript, and Maven incorporates that into the overall build and deployment process. Leveraging these build plans allows us to consistently package and deploy MedChecker to the specified environment. 
   - [Build Dashboard](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/Bamboo%20Build%20Dashboard.png)
-  - [Build Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/medchecker_build_summary.jpg)
+  - [Build Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/medchecker_build_summary.png)
   - [Build Log](https://github.com/IBCDBS/medchecker/blob/master/devops/ci/MedChecker%20Bamboo%20Build%20Log_CI.png)
 
