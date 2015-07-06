@@ -14,3 +14,6 @@ Here are our notes for our Sprint 2 Demo:
 ![Sprint 2 Demo Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_2_Demo_Notes.png)
 
 ##Sprint 2 Retrospective
+Here are our notes for our Sprint 2 Retrospective:
+
+![Sprint 2 Demo Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_2_Retrospective_Notes.png)
