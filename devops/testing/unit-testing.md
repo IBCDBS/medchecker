@@ -2,7 +2,7 @@ Unit Tests
 
 MedChecker has unit tests automatically executed with each build. The JUnit framework is used to test Java components while Karma is used for testing the JavaScript. Testing for each build can be monitored within Bamboo. 
 
-![Bamboo Unit Tests Results](/MedChecker_TestsResults_build108.png)
+![Bamboo Unit Tests Results](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/MedChecker_TestsResults_build126.jpg)
 
 
 | Code      |  # of Tests  | % Coverage |
