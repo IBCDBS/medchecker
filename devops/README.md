@@ -12,6 +12,9 @@ Configuration management for MedChecker includes several components:
 ####Azure Portal
 
 - Initial virtual networks/cloud services/machines were created via the Azure portal. Once in use, snapshots and backups were scheduled and administered on a regular basis.
+  - [Azure Recovery Services](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_backup.png)
+  - [Azure Snapshots](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_snapshots.png)
+
 
 ####Ansible
 
