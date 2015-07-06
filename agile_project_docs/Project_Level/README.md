@@ -19,6 +19,11 @@ Here are the meeting minutes from the initial scope discussions around MedChecke
 ![MedChecker Initial Scope Discussions]
 (https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/Initial_Scope_Discussions_Meeting_Minutes.png)
 
+##Internal Focus Group Session
+The MedChecker Product Owner and Delivery Manager held an internal focus group with IBC employees to get a better understanding of what a user of MedChecker would want to see in the final product. Notes from this session can be accessed at the below link:
+
+https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/Project_Level/FocusGroupNotes.md
+
 ##Business Case
 The MedChecker Business Case, which was used in determining the need and intended user group of the MedChecker Application, can be accessed at the below link:
 
