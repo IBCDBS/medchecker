@@ -4,7 +4,7 @@
 
 MedChecker has Unit Tests automatically execute with each build. More information about MedChecker Unit Checks can be found at the below link:
 
-[MedChecker Unit Testing](https://github.com/IBCDBS/medchecker/blob/devops/testing/unit-testing.md)
+[MedChecker Unit Testing](https://github.com/IBCDBS/medchecker/blob/testing/unit-testing.md)
 
 ###Usability and Functional Testing
 
