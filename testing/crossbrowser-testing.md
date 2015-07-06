@@ -9,7 +9,7 @@ As show in the screenshots below, MedChecker is fully compatable with multiple W
 | Android Opera|  ![Opera Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/opera_small.png)       |
 | Apple Safari|     ![Safari Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/safari_small.png)        |
 | Google Chrome|     ![Chrome Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/chrome_small.png)        |
-| Microsoft Internet Explorer| ![IE Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/assets/testing/assets/ie_small.png)         |
+| Microsoft Internet Explorer| ![IE Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/ie_small.png)         |
 | Mozilla Firefox|     ![Firefox Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/firefox_small.png)        |
 
 
