@@ -6,9 +6,8 @@ MedChecker has Unit Tests automatically execute with each build. More informatio
 
 [MedChecker Unit Testing](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/unit-testing.md)
 
+###Usability Testing
 
-###Functional Testing
+Usability Testing, as well as Functional Testing, was conducted throughout the MedChecker development process. More information about MedChecker Usability Testing can be found at the below link:
 
-All MedChecker user stories were subject to Functional Testing prior to Product Owner acceptance. More information about MedChecker Functional Testing can be found at the below link:
-
-[MedChecker Functional Testing](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/functional-testing.md)
+[MedChecker Usability Testing](https://github.com/IBCDBS/medchecker/blob/master/devops/testing/usability-testing.md)
