@@ -1,6 +1,6 @@
-#DevOps
+#DevOps Overview
 
-![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_devops_overview.png)
+![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
 
 ##Infrastrucure
 IBC regularly uses cloud services from a variety of vendors. Specifically for this prototype, MedChecker, we built on an Ubuntu virutal machine within Microsoft Azure. Microsoft Azure allows us to quickly build and replicate environments, while providing flexible redundancy and scalability options. 
@@ -16,11 +16,13 @@ Configuration management for MedChecker includes several components:
 ####Azure Portal
 
 - Initial virtual networks/cloud services/machines were created via the Azure portal. Once in use, snapshots and backups were scheduled and administered on a regular basis.
+  - [Azure Recovery Services](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_backup.png)
+  - [Azure Images](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_snapshots.png)
 
 ####Ansible
 
 - IBC used ansible for the configration of its virtual machines, including downloading/installing required packages, in preparation for MedChecker to be deployed.
-  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_ansibletower.png)
+  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_ansibletower.png)
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
