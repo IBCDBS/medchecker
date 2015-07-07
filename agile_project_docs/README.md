@@ -54,4 +54,4 @@ The MedChecker Style Guide, which was created and utilized specifically for the 
 ##MedChecker Remaining Product Backlog
 The MedChecker product backlog reflects the remaining planned work for the MedCheker project that was not completed during the sprint timeframe as of July 6th.  The backlog can continue to be groomed and refined. 
 
-![MedChecker Style Guide](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/MedChecker_JIRA_Final_Backlog.png)
+![MedChecker JIRA Final Backlog](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/MedChecker_JIRA_Final_Backlog.png)
