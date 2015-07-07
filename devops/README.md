@@ -19,7 +19,7 @@ Configuration management for MedChecker includes several components:
 ####Ansible
 
 - IBC used ansible for the configration of its virtual machines, including downloading/installing required packages, in preparation for MedChecker to be deployed.
-  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/medchecker_ansibletower.png)
+  - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_ansibletower.png)
   
 ####Bamboo, Grunt, Bower, NPM, and Maven
 - As part of IBC DevOps process, there are several configurations that occur with each automated build.  Our Bamboo server is used to orchestrate our build process, which runs with the assistance of Grunt, Bower, NPM, and Maven.
