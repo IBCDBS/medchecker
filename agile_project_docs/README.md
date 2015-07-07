@@ -49,7 +49,7 @@ Prototype Mock Ups were developed in Microsoft Excel, based off of the initial d
 ##MedChecker Style Guide
 The MedChecker Style Guide, which was created and utilized specifically for the MedChecker application, can be accessed at the below link:
 
-[MedChecker Style Guide](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/MedChecker_Style_Guide.jpg)
+[MedChecker Style Guide](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/MedCheck_Style_Guide.jpg)
 
 ##MedChecker Remaining Product Backlog
 The MedChecker product backlog reflects the remaining planned work for the MedCheker project that was not completed during the sprint timeframe as of July 6th.  The backlog can continue to be groomed and refined. 
