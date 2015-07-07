@@ -37,7 +37,7 @@ IBC uses CloudFlare for many of its websites and web applications.  CloudFlare p
 ![DevOps Environment](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_devops_overview.png)
 
 IBC leverages the Atlassian suite for most of its DevOps.  Tools used for this effort inlude:
-- Jira (User story management and issue tracking)
+- JIRA (User story management and issue tracking)
 - Conflucence (Team collaboration and system documentation)
 - Fisheye (Source control)
 - Bamboo (Continuous integration and build/deployment services)
@@ -51,7 +51,7 @@ IBC uses Atlassian Fisheye to provide visibility into project sourcecode revisio
 
 ##Continous Integration
 
-Bamboo is atlassian's build server which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with Jira, provides our team traceability from idea inception, to code deployment. 
+Bamboo is atlassian's build server which provides provides continuous integration, along with organizing automated builds, testing, and deployments within a single build plan/workflow. Bamboo used in conjunction with JIRA, provides our team traceability from idea inception, to code deployment. 
 
 ####Bamboo, Grunt, Bower, NPM, and Maven
 
