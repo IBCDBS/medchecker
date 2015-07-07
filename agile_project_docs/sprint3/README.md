@@ -3,6 +3,11 @@ Here are our goals for Sprint 3:
 
 ![Sprint 3 Goals](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_3_Goals.png)
 
+##Sprint 3 Scrum Board
+Here is a snapshot of our Scrum Board from Sprint 3:
+
+![Sprint 3 Scrum Board](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_3_Scrum_Board.png)
+
 ##Sprint 3 Retrospective
 Here are the notes from our Sprint 3 Retrospective:
 
