@@ -6,7 +6,7 @@ This package contains the work of Dominion Business Solutions, Inc. d/b/a IBC, a
 The General Services Administration is given unlimited rights to the work, delivered under agreement, which includes the right to use, disclose, reproduce, prepare derivative works, distribute copies to the public, and perform publicly and display publicly, in any manner and for any purpose whatsoever, and to have or permit others to do so. 
 
 IBC permanently waives all copyright and related rights worldwide in the portions of work in this package delivered under contract, and explicitly grants the public the right to the work to use, disclose, reproduce, prepare derivative works, distribute copies to the public, and perform publicly and display publicly, in any manner and for any purpose whatsoever. 
-
+ 
 Where works of the public contributed to this package were given as gratuitous contributions to the General Services Administration, IBC, or any part of the United States Government, IBC permanently waives worldwide all copyright and related rights in the portions of the work gratuitously contributed by the public. 
 
 Where works of the public included in this package were licensed to the General Services Administration, IBC, or any part of the United States Government, IBC has included the relevant license governing the use of that work in this package. Nothing in this license is to be understood as the General Services Administration waiving copyright or related rights to any work licensed to the General Services Administration. 
