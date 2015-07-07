@@ -63,7 +63,7 @@ Click a link below to jump to the relative dictionary.
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
 |:---------|:------------:|:----------|:----------|
 |	patient.drug	|	list of objects	|	Drugs known to be taken by the patient at the time of the adverse event.	|	
-|	patient.drug.actiondrug	|	string	|	 Actions taken with the drug: <ul> 1 = Drug withdrawn 2 = Dose reduced 3 = Dose increased 4 = Dose not changed 5 = Unknown 6 = Not applicable</ul> 	|	1
+|	patient.drug.actiondrug	|	string	|	 Actions taken with the drug: <ul><li>1 = Drug withdrawn</li><li>2 = Dose reduced</li><li>3 = Dose increased</li><li>4 = Dose not changed</li><li>5 = Unknown</li><li>6 = Not applicable</li></ul> 	|	1
 |	patient.drug.drugadditional	|	string	|	Additional details about the circumstances surrounding the patientís use of the drug.	|	1
 |	patient.drug.drugcumulativedosagenumb	|	string	|	The cumulative dose taken until the first reaction was experienced.	|	4100
 |	patient.drug.drugcumulativedosageunit	|	string	|	 The unit for drugcumulativedosagenumb: <ul>001 = kg kilogram(s) 002 = G gram(s) 003 = Mg milligram(s) 004 = _g microgram(s)</ul> 	|	003
