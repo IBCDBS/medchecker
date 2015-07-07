@@ -18,6 +18,16 @@ Based off of the initial discussions around MedChecker's intended functionality,
 ![MedChecker Bar Graph View](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/mockup_reactionslist.jpg)
 
 #MedChecker 'Wireframe' Mock Up
-Additionally, our UI/UX Designer created a 'Wireframe' Mock Up of MedChecker, which was also used to guide the Project Team developers in their work.
+Additionally, our UI/UX Designer created 'Wireframe' Mock Ups of MedChecker, which was also used to guide the Project Team developers in their work.
 
 ![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup.png)
+
+![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup2.png)
+
+![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup3.png)
+
+![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup4.png)
+
+![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup5.png)
+
+![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup6.png)
