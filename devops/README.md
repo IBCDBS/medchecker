@@ -32,7 +32,7 @@ IBC monitors their Microsoft Azure assets with New Relic. New Relic offers sever
 
 ##Security Monitoring
 IBC uses CloudFlare for many of its websites and web applications.  CloudFlare provides many benefits, including its ability to actively monitor and protect a website from a wide variet of threats and security risks.
-  - [CloudFlare Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/security/medchecker_cloudflare.jpg)
+  - [CloudFlare Summary Report](https://github.com/IBCDBS/medchecker/blob/master/devops/security/medchecker_cloudflare.png)
 
 #DevOps Overview
 
