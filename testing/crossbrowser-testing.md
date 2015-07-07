@@ -1,6 +1,6 @@
 #Cross-Browser Testing
 
-Cross-Browser Testing was conducted at the end of Sprint 2 and Spring 4, to ensure that the application worked on multiple devices and in multiple browsers. 
+Cross-Browser Testing was conducted at the end of Sprint 2 and Sprint 4, to ensure that the application worked on multiple devices and in multiple browsers. 
 
 As show in the screenshots below, MedChecker is fully compatable with multiple Web Browsers.
 
