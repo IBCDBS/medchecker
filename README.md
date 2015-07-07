@@ -25,11 +25,11 @@ Second, our agile team included a Functional (Usability) Tester role who was res
 To develop our MedChecker Application, the team leveraged a combination of agile scrum and kanban approaches. The prototype was built using an iterative and continuous delivery approach, with the team conducting 4 mini-sprints during the RFQ timeline. Each morning we conducted a 9:30 AM standup to discuss progress from the day before, clarified requirements, and addressed team issues/concerns.  In some cases, we moved items to the backlog and reprioritized based on confirmation with the product owner to work a higher priority item, as well as to use team member bandwidth to implement the next highest priority from the backlog.   
  
 The team tracked all of our work in the JIRA ALM tool by creating Epics, Stories, sub-tasks and bugs, setting their associated priority to drive current sprint and future work.  Using JIRA provided real-time traceability and visibility to all work in progress as well as the backlog, and with the Bamboo integration, we were able to link code check-in to JIRA stories.  We also used Confluence as our project information repository, posting relevant documentation throughout the project lifecycle.  We conducted the typical agile ceremonies, including: 
-Initial Backlog Creation/Backlog Grooming - including epics and stories, with initial prioritization; 
-Sprint Planning - including sizing, scoping, acceptance criteria creation and story/bug ownership; 
-Daily Stand-up - discussed sprint progress and issues with each story or bug; 
-Sprint Demo - reviewed the iteration's product with stakeholders; and 
-Sprint Retrospective - assessed what went well and what could have gone better with the agile team, documented tangible actions to incorporate into the next sprint. 
+- Initial Backlog Creation/Backlog Grooming - including epics and stories, with initial prioritization; 
+- Sprint Planning - including sizing, scoping, acceptance criteria creation and story/bug ownership; 
+- Daily Stand-up - discussed sprint progress and issues with each story or bug; 
+- Sprint Demo - reviewed the iteration's product with stakeholders; and 
+- Sprint Retrospective - assessed what went well and what could have gone better with the agile team, documented tangible actions to incorporate into the next sprint. 
  
 ######[h_evidence](https://github.com/IBCDBS/medchecker/blob/master/testing/crossbrowser-testing.md#cross-browser-testing) 
 Based on user requests around mobility, we made the decision to ensure MedChecker leverages a combination of the popular mobile first framework Twitter Bootstrap 3 and the AngularJS library UI Bootstrap to enable its responsive design. As a result, MedChecker is able to provide a consistent user experience, across a variety of devices, while maintaining a single code base. 
