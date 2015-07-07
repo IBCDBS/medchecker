@@ -1,7 +1,7 @@
-#Building Medchecker 
+#Building MedChecker 
 
 ##Prerequisites: 
-First, ensure that java 1.8, maven 3, npm and bower are installed on the machine where you wish to build Medchecker and that you have cloned the repository to an appropriate directory.  Ensure that any tomcat servers are tomcat version 7.
+First, ensure that java 1.8, maven 3, npm and bower are installed on the machine where you wish to build MedChecker and that you have cloned the repository to an appropriate directory.  Ensure that any tomcat servers are tomcat version 7.
 
 ###Setting Up Maven to Deploy to Tomcat:   
 Create a settings.xml file for maven within the .m2 directory (usually located under the user’s home directory) and add the following content: 
@@ -105,7 +105,7 @@ This documentation assumes some level of familiarity with grunt.  All grunt comm
 
 ###Grunt Build: 
 
-To build a “debuggable” version of Medchecker’s javascript code (not concatenated or minified), run the following command: 
+To build a “debuggable” version of MedChecker’s javascript code (not concatenated or minified), run the following command: 
 
 ```
 grunt build 
