@@ -41,7 +41,7 @@ IBC monitors their Microsoft Azure assets with New Relic. New Relic offers sever
 
 MedChecker has been deployed within a LXC container running on an Ubuntu 14.04 host virtual machine. (o:)
 
-(p:)
+######[GoogleLink](www.google.com)
 
 MedChecker was developed using the following open source and open licensed technologies and frameworks, completely free of charge: Ubuntu 14.04; LXC; Tomcat; Apache; Java; Spring Framework; AngularJS; Bootstrap; Smart-Table; Ng Boilerplate; Angular UI Boostrap; D3. (q:)
 
