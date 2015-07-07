@@ -20,8 +20,6 @@ Based off of the initial discussions around MedChecker's intended functionality,
 #MedChecker 'Wireframe' Mock Up
 Additionally, our UI/UX Designer created 'Wireframe' Mock Ups of MedChecker, which was also used to guide the Project Team developers in their work.
 
-![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup.png)
-
 ![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup2.png)
 
 ![MedChecker Wireframe Mock Up](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/wireframe_mockup3.png)
