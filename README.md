@@ -6,7 +6,7 @@ To deliver our project, we identified IBC personnel with children to comprise ou
 
 ######[a_evidence](https://github.com/IBCDBS/medchecker/tree/master/agile_project_docs#project-level-documentation)
  
-Additionally, we identified James Fintel as our Delivery Manager /Scrum Manager.   We made the corporate decision to focus our prototype development around a single agile team to show how we operate within our IBC Agile Development and Innovation Lab.  We also identified seven other key labor categories used as part of our agile team to deliver this project (many individuals supported part time), while highlighting our IBC DevOps capabilities in a cost effective manner.  The complete roster of the team is included within our GitHub directory.
+Additionally, we identified James Fintel as our Delivery Manager/Scrum Manager.   We made the corporate decision to focus our prototype development around a single agile team to show how we operate within our IBC Agile Development and Innovation Lab.  We also identified seven other key labor categories used as part of our agile team to deliver this project (many individuals supported part time), while highlighting our IBC DevOps capabilities in a cost effective manner.  The complete roster of the team is included within our GitHub directory.
 ######[b_evidence](https://github.com/IBCDBS/medchecker/tree/master/agile_project_docs#team-roles-and-contact-list)
  
 The agile team held focus groups with stakeholders and requirements brainstorming sessions with a large group within IBC to discuss where we could bring value to the consumer leveraging one of the datasets provided, ultimately building out the product backlog. We discussed many ideas and ultimately selected the presentation choices and data queries exhibited in MedChecker because of the relevance to our own lives as consumers and parents. Furthermore, as an additional source of “external feedback and testing,” the team leveraged our spouses, who were totally separate from this effort, but all part of the target user base, to use the application on both on their computers and mobile devices and provide any feedback. Our primary takeaway from this was that they would likely use a mobile device, given that they may be using it while in a store with a sick child, so we focused on ensuring that capability was functional.
@@ -67,5 +67,3 @@ IBC has built MedChecker as an open source product that can be improved upon, no
  
 MedChecker was developed using the following open source and open licensed technologies and frameworks, completely free of charge: Ubuntu 14.04; LXC; Tomcat; Apache; Java; Spring Framework; AngularJS; Bootstrap; Smart-Table; Spring Framework; Ng Boilerplate; Angular UI Bootstrap; D3. 
 ######[q_evidence](https://github.com/IBCDBS/medchecker/blob/master/LICENSE.md#license-summary-of-included-technologies)
-
-
