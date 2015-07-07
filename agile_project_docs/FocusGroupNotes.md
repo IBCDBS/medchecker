@@ -28,7 +28,7 @@
 
 <i>But you could just surf the web for that?</i>
 
-<b>Dan</b> - Sure, but if I goto WebMD, then they only post the worse possible scenario - as an example, my child is experiencing diziness and is vomiting - the response is to immediately rush to hospital, when maybe 
+<b>Dan</b> - Sure, but if I goto WebMD, then they only post the worse possible scenario - as an example, my child is experiencing diziness and is vomiting - the response is to immediately rush to hospital, when maybe it's not that critical
 
 <b>Tim</b> - Right, but the web applications are pretty complex, and you have to drill down to 20 different things - if that information was at my fingertips, that would be much more effective
 

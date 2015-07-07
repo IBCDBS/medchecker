@@ -11,15 +11,15 @@ All Project Team members were asked to abide by the Agile Team Working Agreement
 
 ![Agile Team Working Agreement](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Team_Working_Agreement.png)
 
-##Initial Scope Discussion
-Here are the meeting minutes from the initial scope discussions around MedChecker:
-
-![MedChecker Initial Scope Discussions](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Initial_Scope_Discussions_Meeting_Minutes.png)
-
 ##Internal Focus Group Session
 The MedChecker Product Owner and Delivery Manager held an internal focus group with IBC employees to get a better understanding of what a user of MedChecker would want to see in the final product. Notes from this session can be accessed at the below link:
 
 [Internal Focus Group Notes](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/FocusGroupNotes.md)
+
+##Initial Scope Discussion
+Here are the meeting minutes from the initial scope discussions around MedChecker:
+
+![MedChecker Initial Scope Discussions](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Initial_Scope_Discussions_Meeting_Minutes.png)
 
 ##Business Case
 The MedChecker Business Case, which was used in determining the need and intended user group of the MedChecker Application, can be accessed at the below link:
