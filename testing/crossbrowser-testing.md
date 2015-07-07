@@ -12,6 +12,7 @@ As show in the screenshots below, MedChecker is fully compatable with multiple W
 | Microsoft Internet Explorer| ![IE Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/ie_small.png)         |
 | Mozilla Firefox|     ![Firefox Screen Shot](https://github.com/IBCDBS/medchecker/blob/master/testing/assets/firefox_small.png)        |
 
+#Responsive Design
 
 Additionally, testing was conducted on mobile devices and tablets to ensure full functionality of the application. As shown in the screenshots below, MedChecker is fully compatable with both mobile and tablet sized devices (click on image thumbnail for larger image).
 
