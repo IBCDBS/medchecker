@@ -22,7 +22,9 @@ Configuration management for MedChecker includes several components:
   - [Ansible Tower Job Summary](https://github.com/IBCDBS/medchecker/blob/master/devops/iaas/medchecker_ansibletower.png)
   
 ####Bamboo, Grunt, Bower, NPM, and Maven
-- As part of IBC DevOps process, there are several configurations that occur with each automated build.  Our Bamboo server is used to orchestrate our build process, which runs with the assistance of Grunt, Bower, NPM, and Maven.
+- As part of IBC DevOps process, there are several configurations that occur with each automated build.  Our Bamboo server is used to orchestrate our build process, which runs with the assistance of Grunt, Bower, NPM, and Maven.  For additional details, refer to the the files below.
+  - [Gruntfile.js](https://github.com/IBCDBS/medchecker/blob/master/medchecker_code/src/main/webapp/app/Gruntfile.js)
+  - [pom.xml](https://github.com/IBCDBS/medchecker/blob/master/medchecker_code/pom.xml)
 
 ##Performance Monitoring
 IBC monitors their Microsoft Azure assets with New Relic. New Relic offers several products, but the one we use for server monitoring is New Relice Servers. This product easily integrates with our Azure portal, installs on each virtual machine in seconds, and provides almost instant status on our server's health, and potential issues. Alerts are configured to notify our DevOps team at various thresholds, to ensure our servers applications perform optimally.
