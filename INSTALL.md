@@ -38,19 +38,19 @@ Create a settings.xml file for maven within the .m2 directory (usually located u
  
 Throughout the settings.xml file, add properties as needed and replace the UPPER_CASE values with an appropriate corresponding value.  These values should be replaced as follows: 
  
-1) MANAGER_USER: a user account for tomcat 7 with permissions to deploy to tomcat. 
+1. MANAGER_USER: a user account for tomcat 7 with permissions to deploy to tomcat. 
 
-2) MANAGER_PASS: the password for whatever tomcat 7 user you choose to provide. 
+2. MANAGER_PASS: the password for whatever tomcat 7 user you choose to provide. 
 
-3) MAIL_HOST: the host for an email server which can be used by medchecker to send feed back  emails. 
+3. MAIL_HOST: the host for an email server which can be used by medchecker to send feed back  emails. 
 
-4) SERVICE_ACCOUNT: a service account on the mail host which will receive the feed back emails.  For example, “feedback@yourdomain.com”. 
+4. SERVICE_ACCOUNT: a service account on the mail host which will receive the feed back emails.  For example, “feedback@yourdomain.com”. 
 
-5) ACCOUNT_PASS: the password for the provided service account. 
+5. ACCOUNT_PASS: the password for the provided service account. 
 
-6) STAGING_URL: the url of the staging server. 
+6. STAGING_URL: the url of the staging server. 
 
-7) PROD_URL: the url of the prod server. 
+7. PROD_URL: the url of the prod server. 
  
 ###Configuring Tomcat To Work With Maven:
 The manager user and password need to be configured within Tomcat.  Create a user which has priviliges to deploy through the built in manager application and through maven.  Add the following xml lines conf/tomcat-users.xml and adjust USER and PASS appropriately.
