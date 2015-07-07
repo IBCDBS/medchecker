@@ -125,7 +125,7 @@ Be aware that this will replace any debuggable versions of the code within the b
 
 ###Grunt Watch: 
 
-If a developer is making frequent changes to the javascript code, he/she may wish to use the watch task.  The watch task waits for the developer to make changes to files within the project.  When it detects a change has been made, it runs the build subtask then begins waiting again.  The watch task is useful if the developer wishes to simply have changes reload automatically rather than having to manually run grunt build following every save.  The watch task is run in the following manner: 
+If a developer is making frequent changes to the javascript code, he/she may wish to use the watch task.  The watch task waits for the developer to make changes to files within the project.  When it detects a change has been made, it runs the build task then begins waiting again.  The watch task is useful if the developer wishes to simply have changes reload automatically rather than having to manually run grunt build following every save.  The watch task is run in the following manner: 
 
 ```
 grunt watch 
