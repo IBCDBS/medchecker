@@ -8,6 +8,11 @@ Here is a snapshot of our Scrum Board from Sprint 3:
 
 ![Sprint 3 Scrum Board](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_3_Scrum_Board.png)
 
+##Sprint 3 Completed Work
+This JIRA screenshot provides the list of stories and bugs that the Project Team completed this Sprint:
+
+![Sprint 3 Completed Work](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_3_Completed_Work.png)
+
 ##Sprint 3 Retrospective
 Here are the notes from our Sprint 3 Retrospective:
 
