@@ -31,6 +31,11 @@ Here is a high level summary of the Business Goals and Features that the Project
 
 ![MedChecker Business Goals and Features](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Business_Goals_Features_Summary.png)
 
+##Adverse Reactions Data Dictionary
+The Project Team created a Data Dictionary based on the data provided in the open.fda.gov data set. The Adverse Reactions Data Dictionary can be accessed at the below link:
+
+[Adverse Reaction Data Dictionary](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/adverse_reaction_data_dictionary.md)
+
 ##MedChecker Prototype Mock Ups
 Prototype Mock Ups were developed in Microsoft Excel, based off of the initial discussions held regarding the functionality of the MedChecker application. These Mock Ups served as the basis for development. Screenshots of the Prototype Mock Ups can be accessed at the below link:
 
