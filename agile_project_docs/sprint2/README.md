@@ -16,7 +16,7 @@ Here is a snapshot of our Scrum Board from Sprint 2:
 ##Sprint 2 Completed Work
 This JIRA screenshot provides the list of stories and bugs that the Project Team completed this Sprint:
 
-![Sprint 2 Completed Work](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_2_Completed_Work.png)
+![Sprint 2 Completed Work](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/assets/Sprint_2_Completed_Items.png)
 
 ##Sprint 2 Demo Notes
 Here are our notes for our Sprint 2 Demo:
