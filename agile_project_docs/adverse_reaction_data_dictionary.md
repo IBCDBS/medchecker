@@ -1,10 +1,18 @@
 #Adverse Reaction Data Dictionary
 
+Click a link below to jump to the relative dictionary.
+
+| Dictionary  |Description|
+|:---------|:------------|
+|[Header](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/adverse_reaction_data_dictionary.md#header)|General information about the adverse event
+|[Patient](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/adverse_reaction_data_dictionary.md#patient)|Details on the patient who experienced the event, such as age, weight, sex, etc.
+|[Drugs](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/adverse_reaction_data_dictionary.md#drugs)|Information on the drugs taken while the event was experienced
+|[Reactions](https://github.com/IBCDBS/medchecker/blob/master/agile_project_docs/adverse_reaction_data_dictionary.md#reactions)|Information on the reactions experienced by the patient
+
 ##Header
-#####General information about the adverse event
 
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
-|:---------:|:------------:|:----------|:----------|
+|:---------|:------------:|:----------|:----------|
 |	safetyreportid	|	string	|	 The 8-digit Safety Report ID number, also known as the case report number or case ID. The first 7 digits (before the hyphen) identify an individual report and the last digit (after the hyphen) is a checksum. This field can be used to identify or find a specific adverse event report. 	|	1234567-8	|
 |	safetyreportversion	|	string	|	 The version number of the safetyreportid. Multiple versions of the same report may exist, it is generally best to only count the latest report and disregard others. OpenFDA will only return the latest version of a report. 	|	17	|
 |	receivedate	|	string	|	 Date that the report was first received by FDA. If this report has multiple versions, this will be the date the first version was received by FDA. 	|	20041025	|
@@ -39,9 +47,9 @@
 																	
 
 ##Patient
-#####Details on the patient who experienced the event, such as age, weight, sex, etc.
+
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
-|:---------:|:------------:|:----------|:----------|
+|:---------|:------------:|:----------|:----------|
 |	patient.patientonsetage	|	string	|	The age of the patient when the event first occured	|	59	|
 |	patient.patientonsetageunit	|	string	|	 The unit of measurement for the patientpatientonsetage field: <ul><li>800 = Decade</li><li>801 = Year</li><li>802 = Month</li><li>803 = Week</li><li>804 = Day</li><li>805 = Hour</li></ul> | 801	|
 |	patient.patientsex	|	string	|	 The sex of the patient: <ul><li>0 = Unknown</li><li>1 = Male</li><li>2 = Female </li> </ul>	|	2	|
@@ -51,9 +59,9 @@
 |	patient.patientdeath.patientdeathdateformat	|	string	|	Identifies the encoding format of the tientpatientdeathpatientdeathdate field Always set to 102 (YYYYMMDD)	|	102	|
 
 ##Drugs
-#####Information on the drugs taken while the event was experienced
+
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
-|:---------:|:------------:|:----------|:----------|
+|:---------|:------------:|:----------|:----------|
 |	patient.drug	|	list of objects	|	Drugs known to be taken by the patient at the time of the adverse event.	|	
 |	patient.drug.actiondrug	|	string	|	 Actions taken with the drug: <ul> 1 = Drug withdrawn 2 = Dose reduced 3 = Dose increased 4 = Dose not changed 5 = Unknown 6 = Not applicable</ul> 	|	1
 |	patient.drug.drugadditional	|	string	|	Additional details about the circumstances surrounding the patientís use of the drug.	|	1
@@ -82,9 +90,9 @@
 
 
 ##Reactions
-#####Information on the reactions experienced by the patient
+
 | Attribute   |  Type     |  Definition / List of Values |Sample Value|
-|:---------:|:------------:|:----------|:----------|
+|:---------|:------------:|:----------|:----------|
 |patient.reaction.reactionmeddrapt||MedDRA term(s) for the reaction(s). Note that these terms are encoded in British English. For instance, “diarrhea” is recorded as “diarrohea.”|Osteonecrosis of jaw|
 |patient.reaction.reactionmeddraversionpt||The MedDRA version that patient.reaction.reactionmeddrapt uses.|16.1|
 |patient.reaction.reactionoutcome||Outcome of the reaction or event at the time of last observation:  <ul><li>1 = Recovered/resolved</li><li> 2 = Recovering/resolving </li><li>3 = Not recovered/not resolved</li><li>4 = Recovered/resolved with sequelae</li><li>5 = Fatal</li><li>6 = Unknown</li></ul>|6|
