@@ -14,6 +14,6 @@ Usability Testing, as well as Functional Testing, was conducted throughout the M
 
 ###Cross-Browser Testing
 
-Cross-Browser Testing was conducted at the end of Sprint 2 and Spring 4, to ensure that the application worked on multiple devices and in multiple browsers. More information about MedChecker Cross-Browser Testing can be found at the below link:
+Cross-Browser Testing was conducted at the end of Sprint 2 and Sprint 4, to ensure that the application worked on multiple devices and in multiple browsers. More information about MedChecker Cross-Browser Testing can be found at the below link:
 
 [MedChecker Cross-Browser Testing](https://github.com/IBCDBS/medchecker/blob/master/testing/crossbrowser-testing.md)
